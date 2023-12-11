@@ -1,4 +1,3 @@
-import p1 from "../../../assets/img/project1.jpeg"
 import p2 from "../../../assets/img/project5.jpeg"
 import p3 from "../../../assets/img/project3.jpeg"
 import p4 from "../../../assets/img/project4.jpeg"
@@ -6,7 +5,7 @@ import p4 from "../../../assets/img/project4.jpeg"
 const Portfolio = () => {
     return (
         <div className="py-10">
-            <h1 className='text-5xl font-bold p-2 md:text-center text-[#40F8FF] py-10'>Portfolio</h1>
+            <h1 className='text-5xl font-bold text-center text-[#40F8FF] py-10'>Portfolio</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                 <div className="card card-compact  bg-base-100 shadow-xl mb-2">
                     <figure><img src={p3} className="rounded-lg" alt="Shoes" /></figure>
