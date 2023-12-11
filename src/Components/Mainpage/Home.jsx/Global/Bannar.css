@@ -1,5 +1,5 @@
 .rainbow {
-    border: 15px solid coral;
+    border: 15px solid #40F8FF;
     animation: mymove 2s infinite;
 }
 
@@ -7,4 +7,20 @@
     50% {
         border-color: lightblue;
     }
+}
+
+.rainbows {
+    border: 15px solid #40F;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border-color: lightblue;
+    }
+}
+
+nav link .active {
+    text-decoration: underline;
+    color: 'green'
 }

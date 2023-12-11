@@ -11,21 +11,21 @@ const Portfolio = () => {
                     <figure><img src={p3} className="rounded-lg" alt="Shoes" /></figure>
                     <div className=" ml-12 py-2 md:ml-[70px] md:py-3">
                         <h2 className="text-3xl font-bold text-[#40F8FF]">Ecommerce</h2>
-                        <p className="text-base font-medium text-black"> Web Design & Development</p>                     
+                        <p className="text-lg font-bold py-2 text-black"> Web Design & Development</p>                     
                     </div>
                 </div>
                 <div className="card card-compact  bg-base-100 shadow-xl mb-2">
                     <figure><img src={p4} className="rounded-lg" alt="Shoes" /></figure>
                     <div className=" ml-12 py-2 md:ml-[70px] md:py-3">
                         <h2 className="text-3xl font-bold text-[#40F8FF]">Assignment</h2>
-                        <p className="text-base font-medium text-black"> Web Design & Development</p>                     
+                        <p className="text-lg py-2 font-bold text-black"> Web Design & Development</p>                     
                     </div>
                 </div>
                 <div className="card card-compact  bg-base-100 shadow-xl mb-2">
                     <figure><img src={p2} className="rounded-lg" alt="Shoes" /></figure>
                     <div className=" ml-12 py-2 md:ml-[70px] md:py-3">
                         <h2 className="text-3xl font-bold text-[#40F8FF]">Advertisement</h2>
-                        <p className="text-base font-medium text-black"> Web Design & Development</p>                     
+                        <p className="text-lg font-bold  py-2 text-black"> Web Design & Development</p>                     
                     </div>
                 </div>
             </div>
