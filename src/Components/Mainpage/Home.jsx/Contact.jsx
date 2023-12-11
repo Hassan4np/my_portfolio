@@ -9,10 +9,10 @@ const Contact = () => {
         // todo
     }
     return (
-        <div className=" bg-[#EDF2EE]">
+        <div className=" bg-[#EDF2EE]" id="contact">
             <h1 className='text-5xl font-bold text-center text-[#40F8FF] py-5'>Contact</h1>
-            <div className="lg:flex">
-                <form onSubmit={hendlecontact} className="p-10 w-full lg:w-1/2 flex-1" data-aos="flip-left">
+            <div className="lg:flex ">
+                <form onSubmit={hendlecontact} className="p-10 w-full lg:w-1/2 flex-1 " data-aos="flip-left">
                     <div className="bg-gradient-to-r  to-[#40F8FF] from-[#C5FFF8] rounded-md p-5">
                         <h1 className="text-center text-2xl font-bold">Feel free to write</h1>
                         <div className="md:flex lg:space-x-4">
@@ -63,7 +63,7 @@ const Contact = () => {
                         <input type="submit" value="Send message" className="w-full mt-5 p-3 rounded-lg font-bold text-xl text-gradient bg-gradient-to-r  from-[#40F8FF] to-[#C5FFF8]" />
                     </div>
                 </form>
-                <div className='flex-1' data-aos="flip-right ">
+                <div className='flex-1 ' data-aos="flip-right ">
                     <div className=' mt-5   lg:mt-20 justify-center items-center ml-10 '>
                         <h1 className="text-3xl font-bold">Get in touch with us</h1>
                         <div className="mt-5 flex border-2 rounded-lg p-3 ">

@@ -1,0 +1,10 @@
+.rainbow {
+    border: 15px solid coral;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        border-color: lightblue;
+    }
+}

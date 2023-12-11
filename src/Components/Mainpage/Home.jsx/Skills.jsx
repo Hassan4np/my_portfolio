@@ -4,7 +4,7 @@
 import ProgressBar from "@ramonak/react-progress-bar";
 const Skills = () => {
     return (
-        <div className="py-10">
+        <div className="py-10" id='skills'>
             <h1 className="text-5xl font-bold text-center py-10 text-[#40F8FF]">MY SKILLS</h1>
             <div className=" md:flex gap-3 mb-2">
                 <div className="border py-2 px-5 rounded-lg flex-1 ">

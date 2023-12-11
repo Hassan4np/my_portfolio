@@ -10,9 +10,9 @@ import Skills from "./Skills";
 
 const Home = () => {
     return (
-        <div>
+        <div id="home">
             <Bannar></Bannar>
-            <About></About>
+            <About id='about'></About>
             <Eduction  id="education"></Eduction>
             <Experience></Experience>
             <Skills></Skills>

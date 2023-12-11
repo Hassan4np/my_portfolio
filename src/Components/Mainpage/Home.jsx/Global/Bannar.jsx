@@ -1,4 +1,5 @@
 import pic from "../../../../assets/logo/hassan1.png"
+import "./Bannar.css"
 const Bannar = () => {
     return (
         <div className="my-5">
@@ -10,8 +11,8 @@ const Bannar = () => {
                         <p className="mb-5 text-2xl md:text-3xl lg:text-4xl">I am a Web developer. As a Web developer, I design and implement interactive.</p>
                         <button className="btn text-lg font-medium bg-[#40F8FF]">Download Resume</button>
                     </div>
-                    <div className="md:w-1/2">
-                        <img className= " h-[350px] w-full md:h-[420px] md:w-full lg:h-[600px] lg:w-full rounded-xl " src={pic} alt="pic" />
+                    <div className="md:w-1/2 ">
+                        <img className= " h-[350px] w-full rainbow md:h-[420px] md:w-full lg:h-[600px] lg:w-full rounded-xl " src={pic} alt="pic" />
                     </div>
                 </div>
             </div>

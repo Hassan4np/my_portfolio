@@ -2,7 +2,7 @@
 
 const Servce = () => {
     return (
-        <div className=' bg-[#EDF2EE]'>
+        <div className=' bg-[#EDF2EE]' id='service'>
             <h1 className='text-5xl font-bold text-center text-[#40F8FF] py-10'>Service</h1>
             <div className="px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 ">
                 <div className="card  h-80  bg-sky-300 shadow-xl image-full mb-2">

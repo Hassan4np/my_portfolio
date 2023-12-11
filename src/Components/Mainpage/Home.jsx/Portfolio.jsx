@@ -4,7 +4,7 @@ import p4 from "../../../assets/img/project4.jpeg"
 
 const Portfolio = () => {
     return (
-        <div className="py-10">
+        <div className="py-10" id='portfolio'>
             <h1 className='text-5xl font-bold text-center text-[#40F8FF] py-10'>Portfolio</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                 <div className="card card-compact  bg-base-100 shadow-xl mb-2">
