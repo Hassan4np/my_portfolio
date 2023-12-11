@@ -4,12 +4,12 @@ import logo from "../../../../assets/logo/logo.png"
 const Navber = () => {
     const links = <>
 
-        <NavLink to="/"> <li className="text-base text-black mr-1 font-semibold "><a>Home</a></li></NavLink>
+        <NavLink to="/"> <li className="text-base text-black mr-1 font-semibold "><a >Home</a></li></NavLink>
         <NavLink to="#"> <li className="text-base text-black mr-1 font-semibold "><a>About</a></li></NavLink>
         <NavLink to="#"> <li className="text-base text-black mr-1 font-semibold "><a>Service</a></li></NavLink>
         <NavLink to="#"> <li className="text-base text-black mr-1 font-semibold "><a>Skills</a></li></NavLink>
         <NavLink to="#"> <li className="text-base text-black mr-1 font-semibold "><a>Portfolo</a></li></NavLink>
-        <NavLink to="#"> <li className="text-base text-black mr-1 font-semibold "><a>Contact</a></li></NavLink>
+        <NavLink > <li className="text-base text-black mr-1 font-semibold "><a href="#education">Contact</a></li></NavLink>
 
     </>
     return (

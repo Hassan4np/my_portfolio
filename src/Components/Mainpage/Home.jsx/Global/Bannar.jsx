@@ -8,7 +8,7 @@ const Bannar = () => {
                     <div className="md:w-1/2">
                         <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">I'm Hassan Ali</h1>
                         <p className="mb-5 text-2xl md:text-3xl lg:text-4xl">I am a Web developer. As a Web developer, I design and implement interactive.</p>
-                        <button className="btn text-lg font-medium bg-sky-300">Download Resume</button>
+                        <button className="btn text-lg font-medium bg-[#40F8FF]">Download Resume</button>
                     </div>
                     <div className="md:w-1/2">
                         <img className= " h-[350px] w-full md:h-[420px] md:w-full lg:h-[600px] lg:w-full rounded-xl " src={pic} alt="pic" />
