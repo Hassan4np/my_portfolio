@@ -6,7 +6,8 @@ const Bannar = () => {
 
     const handleDownload = () => {
         // Replace 'YOUR_GOOGLE_DRIVE_LINK_HERE' with your actual Google Drive link
-        const cvDownloadLink = 'https://drive.google.com/drive/u/0/folders/1diJrjgtvx_JyyHvhSCFtEOhDRBG-hTw3';
+        // const cvDownloadLink = 'https://drive.google.com/drive/u/1/folders/1diJrjgtvx_JyyHvhSCFtEOhDRBG-hTw3';
+        const cvDownloadLink = 'https://drive.google.com/file/d/1h8PHcTOWpKHWGGqsZnc-X3ATXWWL8YJj/view?usp=sharing';
     
         // Create a temporary link element
         const link = document.createElement('a');
@@ -19,17 +20,17 @@ const Bannar = () => {
       };
 
     return (
-        <div className="my-5">
+        <div className="mb-10">
             <div className={`hero min-h-screen  bg-[#EDF2EE] `}>
                 <div className=""></div>
                 <div className="hero-content md:flex-row flex-col ">
-                    <div className="md:w-1/2">
+                    <div className="md:w-1/2  px-6">
                         <h1 className="mb-5 text-3xl md:text-4xl lg:text-5xl font-bold">I'm Hassan Ali</h1>
-                        <p className="mb-5 text-2xl md:text-3xl lg:text-4xl">I am a Web developer. As a Web developer, I design and implement interactive.</p>
-                        <button onClick={handleDownload} className="btn text-lg font-medium bg-[#40F8FF]">Download Resume</button>
+                        <p className="mb-5 text-xl md:text-3xl lg:text-4xl">I am a Web developer. As a Web developer, I design and implement interactive.</p>
+                        <button onClick={handleDownload} className="btn text-[14px] md:text-lg font-medium bg-[#40F8FF]">Download Resume</button>
                     </div>
-                    <div className="md:w-1/2 ">
-                        <img className= " h-[350px] w-full rainbow md:h-[420px] md:w-full lg:h-[600px] lg:w-full rounded-xl " src={pic} alt="pic" />
+                    <div className="md:w-1/2 px-6 ">
+                        <img className= " h-[300px] w-[300px] rainbow md:h-[350px] md:w-[350px] lg:h-[500px] lg:w-[500px] rounded-xl " src={pic} alt="pic" />
                     </div>
                 </div>
             </div>

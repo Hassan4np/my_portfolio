@@ -1,3 +1,4 @@
+
 import { NavLink } from "react-router-dom";
 import logo from "../../../../assets/logo/logo.png"
 import { HashLink } from 'react-router-hash-link';
@@ -5,17 +6,18 @@ import { HashLink } from 'react-router-hash-link';
 const Navber = () => {
     const links = <>
 
-        <HashLink to="/"> <li className="text-base text-black mr-1 font-semibold "><a >Home</a></li></HashLink>
+        <NavLink to="/"> <li className="text-base text-black mr-1 font-semibold "><a >Home</a></li></NavLink>
         <HashLink to="#about"> <li className="text-base text-black mr-1 font-semibold "><a>About</a></li></HashLink>
         <HashLink to="#service"> <li className="text-base text-black mr-1 font-semibold "><a>Service</a></li></HashLink>
         <HashLink to="#skills"> <li className="text-base text-black mr-1 font-semibold "><a>Skills</a></li></HashLink>
         <HashLink to="#portfolio"> <li className="text-base text-black mr-1 font-semibold "><a>Portfolo</a></li></HashLink>
         <HashLink to="#contact"> <li className="text-base text-black mr-1 font-semibold "><a >Contact</a></li></HashLink>
 
+
     </>
     return (
         <div>
-            <nav className="navbar bg-base-100 shadow-lg " >
+            <nav className="navbar bg-base-100 shadow-xl " >
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
