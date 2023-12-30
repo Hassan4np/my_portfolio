@@ -30,7 +30,7 @@ const Bannar = () => {
                         <button onClick={handleDownload} className="btn text-[14px] md:text-lg font-medium bg-[#40F8FF]">Download Resume</button>
                     </div>
                     <div className="md:w-1/2 px-6 ">
-                        <img className= " h-[300px] w-[300px] rainbow md:h-[350px] md:w-[350px] lg:h-[500px] lg:w-[500px] rounded-xl " src={pic} alt="pic" />
+                        <img className= " h-[300px] w-[300px] rainbow md:h-[350px] md:w-[350px] lg:h-[500px] lg:w-[500px] rounded-xl object-contain " src={pic} alt="pic" />
                     </div>
                 </div>
             </div>
